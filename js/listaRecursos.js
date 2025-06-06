@@ -18,7 +18,8 @@ fetch('https://reqres.in/api/unknown', {
                 <td>${user.name}</td>
                 <td>${user.year}</td>
                 <td>${user.pantone_value}</td>
-                <td>${user.color}</td>
+                
+                <div style="background-color: ${user.color}"/>
                 `;
             tbody.appendChild(tr);
         });
